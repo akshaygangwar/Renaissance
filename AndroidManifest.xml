@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.techedkraft.renaissance"
+    android:versionCode="1"
+    android:versionName="1.0 (Beta)" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.techedkraft.renaissance.SplashScreenActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.techedkraft.renaissance.HomeActivity"
+            android:label="@string/title_activity_home"
+            android:parentActivityName="com.techedkraft.renaissance.SplashScreenActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.techedkraft.renaissance.SplashScreenActivity" />
+        </activity>
+        <activity
+            android:name="com.techedkraft.renaissance.CommitteeActivity"
+            android:label="@string/title_activity_committee"
+            android:parentActivityName="com.techedkraft.renaissance.HomeActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.techedkraft.renaissance.HomeActivity" />
+        </activity>
+        <activity
+            android:name="com.techedkraft.renaissance.DanceActivity"
+            android:label="@string/title_activity_dance"
+            android:parentActivityName="com.techedkraft.renaissance.CommitteeActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.techedkraft.renaissance.CommitteeActivity" />
+        </activity>
+        <activity
+            android:name="com.techedkraft.renaissance.DramaticsActivity"
+            android:label="@string/title_activity_dramatics"
+            android:parentActivityName="com.techedkraft.renaissance.CommitteeActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.techedkraft.renaissance.CommitteeActivity" />
+        </activity>
+        <activity
+            android:name="com.techedkraft.renaissance.EventMgmtActivity"
+            android:label="@string/title_activity_event_mgmt"
+            android:parentActivityName="com.techedkraft.renaissance.CommitteeActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.techedkraft.renaissance.CommitteeActivity" />
+        </activity>
+        <activity
+            android:name="com.techedkraft.renaissance.FineArtsActivity"
+            android:label="@string/title_activity_fine_arts"
+            android:parentActivityName="com.techedkraft.renaissance.CommitteeActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.techedkraft.renaissance.CommitteeActivity" />
+        </activity>
+        <activity
+            android:name="com.techedkraft.renaissance.LiteraryActivity"
+            android:label="@string/title_activity_literary"
+            android:parentActivityName="com.techedkraft.renaissance.CommitteeActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.techedkraft.renaissance.CommitteeActivity" />
+        </activity>
+        <activity
+            android:name="com.techedkraft.renaissance.MusicActivity"
+            android:label="@string/title_activity_music"
+            android:parentActivityName="com.techedkraft.renaissance.CommitteeActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.techedkraft.renaissance.CommitteeActivity" />
+        </activity>
+        <activity
+            android:name="com.techedkraft.renaissance.PhotographyActivity"
+            android:label="@string/title_activity_photography"
+            android:parentActivityName="com.techedkraft.renaissance.CommitteeActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.techedkraft.renaissance.CommitteeActivity" />
+        </activity>
+        <activity
+            android:name="com.techedkraft.renaissance.QuizActivity"
+            android:label="@string/title_activity_quiz"
+            android:parentActivityName="com.techedkraft.renaissance.CommitteeActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.techedkraft.renaissance.CommitteeActivity" />
+        </activity>
+        <activity
+            android:name="com.techedkraft.renaissance.SportsActivity"
+            android:label="@string/title_activity_sports"
+            android:parentActivityName="com.techedkraft.renaissance.CommitteeActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.techedkraft.renaissance.CommitteeActivity" />
+        </activity>
+        <activity
+            android:name="com.techedkraft.renaissance.TechnicalActivity"
+            android:label="@string/title_activity_technical"
+            android:parentActivityName="com.techedkraft.renaissance.CommitteeActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.techedkraft.renaissance.CommitteeActivity" />
+        </activity>
+        <activity
+            android:name="com.techedkraft.renaissance.AboutRenaissanceActivity"
+            android:label="@string/title_activity_about_renaissance" >
+        </activity>
+        <activity
+            android:name="com.techedkraft.renaissance.JoinRenaissance"
+            android:label="@string/title_activity_join_renaissance" >
+        </activity>
+        <activity 
+            android:name="com.techedkraft.renaissance.RenaissanceReaderAppActivity"
+            android:label="@string/title_activity_renaissance_reader_app_activity">
+        </activity>
+    </application>
+
+</manifest>

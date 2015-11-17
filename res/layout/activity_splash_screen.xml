@@ -1,0 +1,15 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashScreenActivity" >
+
+    <ImageView
+        android:id="@+id/splash_screen_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/splash_screen_content_description_string"
+        android:scaleType="centerCrop"
+        android:src="@drawable/splash1" />
+
+</RelativeLayout>

@@ -1,0 +1,52 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    
+    <item 
+        android:id="@+id/about_renaissance"
+        android:title="@string/about_renaissance"/>
+   
+    <item 
+        android:id="@+id/shortcuts_to_committees"
+        android:title="@string/shortcuts_to_committees">
+    	<menu>
+    	    <item 
+    	        android:id="@+id/goto_dance_committee"
+    	        android:title="@string/goto_dance_committee"/>
+    	    <item 
+    	        android:id="@+id/goto_dramatics_committee"
+    	        android:title="@string/goto_dramatics_committee"/>
+    	    <item 
+    	        android:id="@+id/goto_event_mgmt_committee"
+    	        android:title="@string/goto_event_mgmt_committee"/>
+    	    <item 
+    	        android:id="@+id/goto_fine_arts_committee"
+    	        android:title="@string/goto_fine_arts_committee"/>
+    	    <item 
+    	        android:id="@+id/goto_literary_committee"
+    	        android:title="@string/goto_literary_committee"/>
+    	    <item 
+    	        android:id="@+id/goto_music_committee"
+    	        android:title="@string/goto_music_committee"/>
+    	    <item 
+    	        android:id="@+id/goto_photography_committee"
+    	        android:title="@string/goto_photography_committee"/>
+    	    <item 
+    	        android:id="@+id/goto_quizzing_committee"
+    	        android:title="@string/goto_quizzing_committee"/>
+    	    <item 
+    	        android:id="@+id/goto_sports_committee"
+    	        android:title="@string/goto_sports_committee"/>
+    	    <item 
+    	        android:id="@+id/goto_technical_committee"
+    	        android:title="@string/goto_technical_committee"/>
+    	</menu>
+    </item>
+    <item 
+        android:id="@+id/be_the_change"
+        android:title="@string/be_the_change"/>
+    
+    <item
+        android:id="@+id/about_developer"
+        android:title="@string/about_developer"/>
+
+</menu>

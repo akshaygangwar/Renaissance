@@ -1,0 +1,158 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/background"
+    tools:context=".CommitteeActivity" >
+
+	<LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical">
+	    
+	    <TextView 
+	        android:id="@+id/committees"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textColor="#ffffff"
+	        android:textSize="30sp"
+	        android:text="@string/committees_string"/>
+	    
+	    <!-- DANCE COMMITTEE TEXTVIEW -->
+
+	    <TextView
+	        android:id="@+id/dance"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:clickable="true"
+	        android:textSize="20sp"
+	        android:onClick="openDanceActivity"
+	        android:text="@string/dance_string"
+	        android:textColor="#ffffff"
+	        android:typeface="normal" />
+	    
+	    <!-- DRAMATICS COMMITTEE TEXTVIEW -->
+	    <TextView 
+	        android:id="@+id/dramatics"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textColor="#ffffff"
+	        android:textSize="20sp"
+	        android:clickable="true"
+	        android:onClick="openDramaticsActivity"
+	        android:text="@string/dramatics_string"/>
+	    
+	    <!-- EVENT MANAGEMENT AND MARKETING COMMITTEE TEXTVIEW -->
+
+	    <TextView
+	        android:id="@+id/event_mgmt"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:clickable="true"
+	        android:onClick="openEventMgmtActivity"
+	        android:text="@string/event_mgmt_string"
+	        android:textColor="#ffffff"
+	        android:textSize="20sp" />
+	    
+	    <!-- FINE ARTS COMMITTEE TEXTVIEW -->
+	    <TextView 
+	        android:id="@+id/fine_arts"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textColor="#ffffff"
+	        android:textSize="20sp"
+	        android:clickable="true"
+	        android:onClick="openFineArtsActivity"
+	        android:text="@string/fine_arts_string"/>
+	    
+	    <!-- LITERARY COMMITTEE TEXVIEW -->
+	    <TextView 
+	        android:id="@+id/literary"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textColor="#ffffff"
+	        android:textSize="20sp"
+	        android:clickable="true"
+	        android:onClick="openLiteraryActivity"
+	        android:text="@string/literary_string"/>
+	    
+	    <!-- MUSIC COMMITTEE TEXTVIEW -->
+	    <TextView 
+	        android:id="@+id/music"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textColor="#ffffff"
+	        android:textSize="20sp"
+	        android:clickable="true"
+	        android:onClick="openMusicActivity"
+	        android:text="@string/music_string"/>
+	    
+	    <!-- PHOTOGRAPHY AND MOVIE MAKING COMMITTEE TEXTVIEW -->
+	    <TextView 
+	        android:id="@+id/photography"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textColor="#ffffff"
+	        android:textSize="20sp"
+	        android:clickable="true"
+	        android:onClick="openPhotographyActivity"
+	        android:text="@string/photography_string"/>
+	    
+	    <!-- QUIZZING COMMITTEE TEXTVIEW -->
+	    <TextView 
+	        android:id="@+id/quiz"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textColor="#ffffff"
+	        android:textSize="20sp"
+	        android:clickable="true"
+	        android:onClick="openQuizActivity"
+	        android:text="@string/quiz_string"/>
+	    
+	    <!-- SPORTS COMMITTEE TEXTVIEW -->
+	    <TextView 
+	        android:id="@+id/sports"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textColor="#ffffff"
+	        android:textSize="20sp"
+	        android:clickable="true"
+	        android:onClick="openSportsActivity"
+	        android:text="@string/sports_string"/>
+	    
+	    <!-- TECHNICAL COMMITTEE TEXTVIEW -->
+	    <TextView 
+	        android:id="@+id/technical"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textColor="#ffffff"
+	        android:textSize="20sp"
+	        android:clickable="true"
+	        android:onClick="openTechnicalActivity"
+	        android:text="@string/technical_string"/>
+	    
+	    <!-- BUTTONS TO CHANGE FONT -->
+	    <!-- <Button 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:onClick="setFontToForte"
+	        android:text="Set FORTE font"/>
+	    
+	    <Button 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:onClick="setFontToFreescpt"
+	        android:text="Set FREESCPT font"/>
+	    
+	    <Button 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:onClick="setFontToVineritc"
+	        android:text="Set HANDMEDS font"/> -->
+	</LinearLayout>
+
+</ScrollView>

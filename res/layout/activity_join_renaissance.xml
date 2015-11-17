@@ -1,0 +1,58 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/background"
+    tools:context=".JoinRenaissance" >
+
+    <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        
+        <TextView 
+            android:id="@+id/join_renaissance_intro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:text="@string/join_renaissance_intro_string"/>
+        <Button 
+            android:id="@+id/join_renaissance_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="gotoForm"
+            android:text="@string/join_renaissance_button_string"/>
+        <ImageView 
+            android:id="@+id/join_renaissance_qr_code"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/qrcodeforrenaissanceform"/>
+        
+        <Button 
+            android:id="@+id/volunteer_proGECtion_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="goToVolFest"
+            android:text="Be a proGECtion Volunteer!"/>
+        
+        <Button 
+            android:id="@+id/proGECtion_solo_participation_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="goToFestSolo"
+            android:text="Apply For A Solo Event at proGECtion 2k14"/>
+        
+        <Button 
+            android:id="@+id/proGECtion_group_participation_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="goToFestGroup"
+            android:text="Apply For A Group Event at proGECtion 2k14"/>
+    </LinearLayout>
+
+</ScrollView>

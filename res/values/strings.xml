@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- MAIN STRINGS, ACTIVITY NAMES, COMMON RESOURCES -->
+    <string name="app_name">Renaissance</string>
+    <string name="action_settings">Settings</string>
+    <string name="about_developer">Developer</string>
+    <string name="about_renaissance">About Renaissance</string>
+    <string name="shortcuts_to_committees">Committees-></string>
+    <string name="goto_dance_committee">Dance Committee</string>
+    <string name="goto_dramatics_committee">Dramatics Committee</string>
+    <string name="goto_event_mgmt_committee">Event Mgmt Committee</string>
+    <string name="goto_fine_arts_committee">Fine Arts Committee</string>
+    <string name="goto_literary_committee">Literary Committee</string>
+    <string name="goto_music_committee">Music Committee</string>
+    <string name="goto_photography_committee">Photography Committee</string>
+    <string name="goto_quizzing_committee">Quizzing Committee</string>
+    <string name="goto_sports_committee">Sports Committee</string>
+    <string name="goto_technical_committee">Technical Committee</string>
+    <string name="be_the_change">Be The Change</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="splash_screen_content_description_string">Renaissance Splash Screen</string>
+    <string name="hi5_content_description">High 5!</string>
+    <string name="title_activity_renaissance_reader_app_activity">Renaissance</string>
+
+    <!-- ACTIVITY_HOME.XML VALUES -->
+    <string name="welcome_string">Welcome to Renaissance, the first Cultural and Sports Committee of GEC\n
+        High 5 to continue!\n\n</string>
+    <string name="title_activity_home">Renaissance</string>
+
+    <!-- ACTIVITY_COMMITTEE.XML VALUES -->
+    <string name="title_activity_committee">Renaissance</string>
+    <string name="committees_string">Committees under Renaissance:\n</string>
+    <string name="dance_string">Dance Committee</string>
+    <string name="dramatics_string">Dramatics Committee</string>
+    <string name="event_mgmt_string">Event Management and Marketing Committee</string>
+    <string name="fine_arts_string">Fine Arts Committee</string>
+    <string name="literary_string">Literary Committee</string>
+    <string name="music_string">Music Committee</string>
+    <string name="photography_string">Photography and Movie Making Committee</string>
+    <string name="quiz_string">Quizzing Committee</string>
+    <string name="sports_string">Sports Committee</string>
+    <string name="technical_string">Technical Committee</string>
+
+    <!-- ACTIVITY_DANCE.XML VALUES -->
+    <string name="title_activity_dance">Renaissance</string>
+    <string name="dance_members_string"><u>Dance Committee:</u></string>
+    <string name="dance_head_string">\tDo you find it difficult to keep still when you hear the beats, the sound of music in the air?\nIf thumping on the beat interests you, then BEATS - The Dance Society of GEC, is for you!\n
+        BEATS, a proud presentation from Renaissance, the Cultural and Sports Committee of GEC-Delhi will give you the dance floor, the thumping woofers and the craziest beats to dance to!\n
+        Passion for dancing. Love for the beats, and a never ending will to dance, that\'s what makes every member of BEATS!\n
+        </string>
+
+    <!-- ACTIVITY_DRAMATICS.XML VALUES -->
+    <string name="title_activity_dramatics">Renaissance</string>
+    <string name="dramatics_members_string"><u>Dramatics Committee:</u></string>
+    <string name="dramatics_head_string">\t\nRenaissance brings to you, FOOTLIGHT - The Dramatics Society of GEC-D.\n
+        Mimicry, acting, directing, make-up or designing sets; whatever your forte, FOOTLIGHT is the place for you!\n
+        Join the team, act, direct, sing and showcase your talents the way you\'ve always wanted!\n
+        In the words of Alfred Hitchcock \"Drama is like life with the dull bits cut out.\", so cut out the dull bits, edit the sad parts and play the best moments!\n
+        Join Footlight, now! </string>
+
+    <!-- ACTIVITY_EVENT_MGMT.XML VALUES -->
+    <string name="title_activity_event_mgmt">Renaissance</string>
+    <string name="event_mgmt_members_string"><u>Event Management Committee:</u></string>
+    <string name="event_mgmt_head_string">\tManagerial skills, much?\n Think you can handle events responsibly and effectively, well join our Event Management Committee to be a core part of every Renaissance activity.\n
+        Gather your college spirit, be the change!\n Renaissance.</string>
+
+    <!-- ACTIVITY_FINE_ARTS.XML VALUES -->
+    <string name="title_activity_fine_arts">Renaissance</string>
+    <string name="fine_arts_members_string"><u>Fine Arts Committee:</u></string>
+    <string name="fine_arts_head_string">\t\nHold that paint brush, take a palette, fill it up with colors you like and paint your thoughts on canvas!\n
+        Renaissance is proud to present, STROKES - The Fine Arts Society of GEC-D. The paint will flow in a million shades and brushes will paint a river of thoughts.\n
+        Charcoal, water colors, oil paints or even digital art, Strokes welcomes it all. Art is but one true language of the universe.\n
+        Join Strokes!</string>
+
+    <!-- ACTIVITY_LITERARY.XML VALUES -->
+    <string name="title_activity_literary">Renaissance</string>
+    <string name="literary_members_string"><u>Literary Committee:</u></string>
+    <string name="literary_head_string">\t\nDo you fancy yourself the next Shakespeare? Do you believe that the pen is mightier than the sword?\n
+        If so, then Literati is the place where you should be! The literary society of GEC-D, Literati prides itself on being a society of individuals who can wield a pen better than a knight wields his sword.</string>
+
+    <!-- ACTIVITY_MUSIC.XML VALUES -->
+    <string name="title_activity_music">Renaissance</string>
+    <string name="music_members_string"><u>Music Committee:</u></string>
+    <string name="music_head_string">\tGive yourself a \"pause\", do you sense \"treble\" up ahead (Pun intended)? It\'s time to pick up your choice weapon and ready yourself for the show!\n
+        Octaves-The Music Society of GEC-D. Let there be rock. \\m/ </string>
+
+    <!-- ACTIVITY_PHOTOGRAPHY.XML VALUES -->
+    <string name="title_activity_photography">Renaissance</string>
+    <string name="photography_members_string"><u>Photography Committee:</u></string>
+    <string name="photography_head_string">\tSpot something cool? Take a picture! Feel like sending a message? Short films are the way to go!\n
+        FOCUS-The Photography and Movie Making Society of GEC-D will present to you the best opportunities to reveal the photographer within!\n
+        Why are you still reading this? Join now!</string>
+
+    <!-- ACTIVITY_QUIZ.XML VALUES -->
+    <string name="title_activity_quiz">Renaissance</string>
+    <string name="quiz_members_string"><u>Quizzing Committee:</u></string>
+    <string name="quiz_head_string">\tLike knowing things? Do you feel like you have what it takes to beat everyone else when it comes to knowing stuff?\n
+        Do you think you can come up with questions that can make anyone sweat?\n
+        ILLUMINATI-The Quizzing Society of GEC-D, proudly presented by Renaissance, will test your mettle when it comes to quizzes.</string>
+
+    <!-- ACTIVITY_SPORTS.XML VALUES -->
+    <string name="title_activity_sports">Renaissance</string>
+    <string name="sports_members_string"><u>Sports Committee:</u></string>
+    <string name="sports_head_string">\tRenaissance brings to you ARENA-The Sports Committee of GEC-D. Sweat it out on the field. Be a college hero. \n
+        Love sports? Wanna represent your college in sporting events in Delhi and India? Arena will help you train for the sport of your choice, build a team and break some records!\n
+        </string>
+
+    <!-- ACTIVITY_TECHNICAL.XML VALUES -->
+    <string name="title_activity_technical">Renaissance</string>
+    <string name="technical_members_string"><u>Technical Committee:</u></string>
+    <string name="technical_head_string">\tIs a computer your best friend? Do binary codes make more sense to you than decimals? Are you an avid coder?\n
+        Errors? Milestones, I say! If your attitude to program bugs is \"See it, squish it!\", well, BIT-STRINGS-The Technical Society of GEC-D is the place where you belong!\n
+        Join, Bit-Strings and unleash your true potential. </string>
+
+    <!-- ACTIVITY_ABOUT_RENAISSANCE.XML VALUES -->
+    <string name="title_activity_about_renaissance">Renaissance</string>
+    <string name="about_renaissance_string">Renaissance is the first cultural and sports committee of GEC Delhi.\n
+Responsible for managing and organising cultural as well as sports events, Renaissance is a group of student volunteers who are working together to improve the quality of various events that are organised by the college.</string>
+    <string name="gotoRSSReaderButton">Renaissance RSS Feeds</string>
+    <string name="abc">http://youtu.be/pYBWmQiPUkM</string>
+    <string name="trailer_vid_string">Renaissance Teaser-1 HD (YouTube)</string>
+    <string name="progection_teaser_vid_string">ProGECtion Teaser-1 HD (YouTube)</string>
+    
+    <!-- ACTIVITY_JOIN_RENAISSANCE.XML VALUES -->
+    <string name="title_activity_join_renaissance">Renaissance</string>
+    <string name="join_renaissance_intro_string">Join Renaissance, the first Cultural and Sports Committee of GEC Delhi.\n<b>Be the change.</b>\nClick the button below or scan the QR code, now!\n</string>
+        
+    <string name="join_renaissance_button_string">Experience Renaissance. Be The Change.</string>
+
+</resources>

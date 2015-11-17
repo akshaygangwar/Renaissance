@@ -1,0 +1,36 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/background"
+    tools:context=".FineArtsActivity" >
+
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        
+<!--         <TextView  -->
+<!--             android:id="@+id/fine_arts_members" -->
+<!--             android:layout_width="wrap_content" -->
+<!--             android:layout_height="wrap_content" -->
+<!--             android:textColor="#ffffff" -->
+<!--             android:text="@string/fine_arts_members_string"/> -->
+        
+        <TextView
+            android:id="@+id/fine_arts_head"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5sp"
+            android:textColor="#ffffff"
+            android:clickable="false"
+            android:onClick="openFineArtsHeadIntro"
+            android:text="@string/fine_arts_head_string"/>"
+        
+    </LinearLayout>
+    
+</ScrollView>
